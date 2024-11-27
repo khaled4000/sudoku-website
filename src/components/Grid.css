@@ -1,0 +1,36 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-template-rows: repeat(9, 40px);
+    gap: 2px;
+  }
+  
+  .cell {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #999;
+  }
+  .stats {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.stats p {
+  margin: 5px 0;
+}
+
+
+.select-difficulty{
+
+  color: rgb(255, 255, 255);
+
+  
+  
+  
+}
+

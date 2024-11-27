@@ -1,0 +1,21 @@
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #070606; 
+  border-radius: 4px; 
+  background-color: #292525; 
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+
+.cell:hover {
+  background-color: #5c4a4a; 
+  box-shadow: 0 0 10px rgba(206, 129, 129, 0.1); 
+}
+  
